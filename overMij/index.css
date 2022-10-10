@@ -1,11 +1,17 @@
 
 body {
+<<<<<<< HEAD
     background-image: url(https://images8.alphacoders.com/490/490274.jpg); 
     color: white;
     background-size: cover;
 }
 
 
+=======
+    background-color: #ad4949
+}
+
+>>>>>>> 349a5c1 (	new file:   overMij/cat_rood_ligen.jpg)
 .norm_text{ font-family: Arial, Helvetica, sans-serif;
 font-size: large;
 } 
@@ -21,7 +27,11 @@ font-size: large;
     color: #356bff;
     font-size: large;
 }
+<<<<<<< HEAD
 .gamen{
+=======
+#gamen{
+>>>>>>> 349a5c1 (	new file:   overMij/cat_rood_ligen.jpg)
     color: rgb(112, 161, 253);
     font-size: lagre;    
 }
@@ -36,8 +46,11 @@ font-size: large;
 #slaap{ color: #3923ff;
     font-size: medium;
 }
+<<<<<<< HEAD
 
 .start{
     font-size: 1cm;
     font-weight: 900;
 }
+=======
+>>>>>>> 349a5c1 (	new file:   overMij/cat_rood_ligen.jpg)
