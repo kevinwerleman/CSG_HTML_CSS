@@ -1,0 +1,35 @@
+
+body {
+    background-color: #ad4949
+}
+
+.norm_text{ font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+} 
+
+.e{ font-family: Arial, Helvetica, sans-serif;}
+
+.title_plaatje{font-size: xx-large;
+    font-weight: 2000;
+    font-variant-caps: all-petite-caps;
+}
+
+#wekken{ 
+    color: #356bff;
+    font-size: large;
+}
+#gamen{
+    color: rgb(112, 161, 253);
+    font-size: lagre;    
+}
+#studie{
+    color: hsl(212, 100%, 77%);
+    font-size: large;
+}
+#eten{ 
+    color: #9dcdff;
+    font-size: medium;
+}
+#slaap{ color: #3923ff;
+    font-size: medium;
+}
