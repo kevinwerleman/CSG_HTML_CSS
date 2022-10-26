@@ -1,0 +1,17 @@
+body{
+    background-color: ;
+}
+
+#lang_box{
+    border: 5px outset black;
+    
+    background-color: blue;
+    width: 10dm;
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#contaner1{
+    flex: ;
+}
