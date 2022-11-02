@@ -8,12 +8,24 @@ body {
     background-color: rgba(26, 26, 26, 0.541);
     font-family:sans-serif;
     size: 14px;
-    padding-left: 10%;
+    
 }
  
-.menu {
-    background-color: rgb(0, 0, 0);
-    width: 90%;
-    height: 80px;
-
+#menu {
+    width: 80%;
+    height: 0.0025%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#menu_knoppen {
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    margin: 10px rgb(255, 0, 0);
+}
+.il_menu {
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    background-color: #AAA;
+    padding: inherit;
+    padding-right: 20;
 }
