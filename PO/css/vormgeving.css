@@ -12,21 +12,31 @@ body {
 }
  
 #menu {
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
+
 #menu_knoppen {
     margin: 20px auto;
     background-color: rgb(255, 255, 255);
     margin: 10px;
+    
 }
+
 .il_menu {
     font-size: xx-large;
-    color: rgb(0, 0, 0);
+    color: rgb(222, 216, 216);
     background-color: #AAA;
-    padding: inherit;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin:10%;
+    margin: 3.4%;
+    justify-content: space-evenly;
+}
+
+.name_menubar {
+    text-decoration: solid;
+    color: black;
+}
+
+.il_menu:hover {
+    background-color: yellow;
 }
