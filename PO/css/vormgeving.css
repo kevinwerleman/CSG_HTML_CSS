@@ -13,19 +13,20 @@ body {
  
 #menu {
     width: 80%;
-    height: 0.0025%;
     padding-left: 10%;
     padding-right: 10%;
 }
 #menu_knoppen {
     margin: 20px auto;
     background-color: rgb(255, 255, 255);
-    margin: 10px rgb(255, 0, 0);
+    margin: 10px;
 }
 .il_menu {
     font-size: xx-large;
     color: rgb(0, 0, 0);
     background-color: #AAA;
     padding: inherit;
-    padding-right: 20;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin:10%;
 }
