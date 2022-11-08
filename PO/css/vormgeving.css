@@ -40,3 +40,34 @@ body {
 .il_menu:hover {
     background-color: yellow;
 }
+
+#hoofdpagina_text_één{
+    display: flex;
+    background-color: white;
+    padding: unset;
+}
+#wat_web{
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+}
+
+#___{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#onder{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+}
+
+#list_onder{
+    color: yellow;
+    position: absolute;
+    bottom: 10px;
+    left: 6%;
+}
