@@ -8,7 +8,7 @@ body {
     background-color: rgba(26, 26, 26, 0.541);
     font-family:sans-serif;
     size: 14px;
-    
+    cursor: context-menu; 
 }
  
 #menu {
@@ -41,7 +41,7 @@ body {
     background-color: yellow;
 }
 
-#hoofdpagina_text_één{
+#hoofdpagina_text_top{
     display: flex;
     background-color: white;
     padding: unset;
@@ -58,6 +58,10 @@ body {
     padding-right: 2%;
 }
 
+#hoofdpagina_text_mid{
+    background-color: white;
+
+}
 #onder{
     width: 100%;
     position: fixed;
@@ -66,8 +70,9 @@ body {
 }
 
 #list_onder{
-    color: yellow;
     position: absolute;
-    bottom: 10px;
-    left: 6%;
+    bottom: 0.5%;
+    left: 6.5%;
+    color: yellow;
+    text-decoration: solid !important;
 }
