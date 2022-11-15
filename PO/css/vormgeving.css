@@ -24,6 +24,10 @@ body {
     
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
 .il_menu {
     font-size: xx-large;
     color: rgb(222, 216, 216);
@@ -53,7 +57,7 @@ body {
     float: left;
 }
 
-#___{
+#wie_ben_ik{
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -69,10 +73,48 @@ body {
     display: flex;
 }
 
-#list_onder{
+#list_onder_verticaal{
     position: absolute;
-    bottom: 0.5%;
     left: 6.5%;
-    color: yellow;
-    text-decoration: solid !important;
+    bottom: 0%;
+    color: rgb(70, 187, 226);
+    list-style: none;
+}
+.hover_list:hover{
+    color:hwb(39 38% 0%);
+}
+
+#title_list_onder_verticaal{
+    font-size: x-large;
+    color:white;
+}
+
+#list_onder_horisontaal{
+    position: absolute;
+    left: 20%;
+    bottom: 0%;
+    color: hwb(39 38% 0%);
+    padding-left: 15%;
+    font-size: large;
+}
+
+#leerling_nummer{
+   background-color: hwb(39 38% 0%);
+   font-size: large;
+}
+
+#leerling_nummer:hover{
+    background-color: black;
+}
+#bronnen{
+    margin-left: 300px;
+}
+
+#bronnen:hover{
+    color:rgb(70, 187, 226);
+}
+
+#bronnen_pagina{
+    background-color: grey;
+    color: whitesmoke;
 }
