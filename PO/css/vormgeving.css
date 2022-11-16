@@ -72,7 +72,8 @@ a {
     bottom: 0;
     display: flex;
     font-family:"SourceSansPro-Regular";
-    src:url("SourceSansPro-Regular.ttf") format("truetype")
+    src:url("SourceSansPro-Regular.ttf") format("truetype");
+    
 }
 
 #list_onder_verticaal{
@@ -127,7 +128,7 @@ a {
     width: 75%;
     height: fit-content;
     padding: 10px;
-    margin: 15px auto;
+    margin: 4% auto;
     text-align: justify;
     border-top: 5px solid rgb(0, 0, 0);
     border-bottom: 5px solid white(0, 0, 0);
@@ -137,8 +138,14 @@ a {
 }
 
 #title_box{
-    font-size: xxx-large;
+    font-size: xx-large;
     position: static;
+
+}
+.BGC_text{
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: aquamarine
 }
 
 
