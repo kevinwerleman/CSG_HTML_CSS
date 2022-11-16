@@ -6,9 +6,9 @@ html, body {
 
 body {
     background-color: rgba(26, 26, 26, 0.541);
-    font-family:sans-serif;
     size: 14px;
     cursor: context-menu; 
+    font-family: sans-serif;
 }
  
 #menu {
@@ -71,6 +71,8 @@ a {
     position: fixed;
     bottom: 0;
     display: flex;
+    font-family:"SourceSansPro-Regular";
+    src:url("SourceSansPro-Regular.ttf") format("truetype")
 }
 
 #list_onder_verticaal{
@@ -118,3 +120,32 @@ a {
     background-color: grey;
     color: whitesmoke;
 }
+
+
+
+
+h1 {
+    font-size: 4.5rem;
+    float: left;
+    margin: 10px 20px;
+    color: #333;
+} 
+
+li {
+    font-size: 2.0rem;
+    width: 200px;
+    color: #111;
+    background-color: #AAA;
+    padding: 5px 15px;
+    margin: 2px 0;
+}
+
+.horizontaal {
+    margin: 20px auto;
+    float: right;
+}
+
+.horizontaal li {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 20px;
