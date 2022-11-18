@@ -8,8 +8,7 @@ body {
     background-color: rgba(73, 73, 73, 0.527);
     size: 14px;
     cursor: context-menu; 
-    font-family: sans-serif;
-}
+    font-family: sans-serif;}
  
 #menu {
     width: 70%;
@@ -47,10 +46,16 @@ a {
 
 #hoofdpagina_text_top{
     display: flex;
-    background-color: white;
-    padding: unset;
+    background-color: rgb(133, 133, 133);
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    border-left: 5px solid rgb(0, 0, 0);
 }
-#wat_web{
+.H_web{
     color: black;
     padding-left: 2%;
     padding-right: 2%;
@@ -63,9 +68,22 @@ a {
 }
 
 #hoofdpagina_text_mid{
-    background-color: white;
-
+    background-color: rgb(133, 133, 133);
+    margin: 2%;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    border-left: 5px solid rgb(0, 0, 0);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 1%;
+    display: flex;
 }
+
+#H_mid_dislplay{
+    
+}
+/*onder menu*/
 #onder{
     width: 100%;
     position: fixed;
@@ -122,9 +140,9 @@ a {
     background-color: grey;
     color: whitesmoke;
 }
-
+/* html console*/
 .box_model_1{
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(133, 133, 133);
     width: 80%;
     max-height: min-content;
     padding: 10px;
@@ -164,3 +182,5 @@ a {
     padding-left: 10px;
     padding-right: 10px;
 }
+/*htmlgames*/
+
